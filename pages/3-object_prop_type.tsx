@@ -8,11 +8,7 @@ const Object_prop_type: NextPage = () => {
     lastname: 'Vasudeva'
   }
 
-  return (
-    <div>
-      <Person name={personName}></Person>
-    </div>
-  )
+  return (<Person name={personName}></Person>)
  }
  
 export default Object_prop_type;

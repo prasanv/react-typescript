@@ -18,11 +18,7 @@ const Array_prop_type: NextPage = () => {
     }
   ]
 
-  return (
-    <>
-     <PersonList name={nameList}></PersonList> 
-    </>
-  )
+  return (<PersonList name={nameList}></PersonList>)
 }
 
 export default Array_prop_type;
