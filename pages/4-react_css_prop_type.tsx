@@ -10,11 +10,7 @@ const React_css_prop_type: NextPage = () => {
     'text-transform': 'uppercase',
   }
 
-  return (
-    <div>
-      <Container styles={styleObj}></Container>
-    </div>
-  )
+  return (<Container styles={styleObj}></Container>)
 }
 
 export default React_css_prop_type;

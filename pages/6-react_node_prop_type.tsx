@@ -7,7 +7,7 @@ import { NextPage } from 'next'
 
 const React_node_prop_type: NextPage = () => {
   return (
-    <>
+    <div>
       <Heading>Data Fetching Status</Heading>
       <Body>
         <div>
@@ -16,7 +16,7 @@ const React_node_prop_type: NextPage = () => {
         </div>
         <Greet greeterName='Prasanna Venkateshan' isLoggedIn={true}></Greet>
       </Body>
-    </>
+    </div>
   )
 }
 
